@@ -28,6 +28,8 @@
 		CE8784842BBC854D0072A8E7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784832BBC854D0072A8E7 /* WelcomeView.swift */; };
 		CE8784862BBC86430072A8E7 /* SignUpMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784852BBC86430072A8E7 /* SignUpMsg.swift */; };
 		CE8784882BBC86560072A8E7 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784872BBC86560072A8E7 /* MessageView.swift */; };
+		CE87848A2BBC86F50072A8E7 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784892BBC86F50072A8E7 /* CartView.swift */; };
+		CE87848C2BBC870F0072A8E7 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87848B2BBC870F0072A8E7 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		CE8784832BBC854D0072A8E7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		CE8784852BBC86430072A8E7 /* SignUpMsg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMsg.swift; sourceTree = "<group>"; };
 		CE8784872BBC86560072A8E7 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		CE8784892BBC86F50072A8E7 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		CE87848B2BBC870F0072A8E7 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 				CE8784832BBC854D0072A8E7 /* WelcomeView.swift */,
 				CE8784852BBC86430072A8E7 /* SignUpMsg.swift */,
 				CE8784872BBC86560072A8E7 /* MessageView.swift */,
+				CE8784892BBC86F50072A8E7 /* CartView.swift */,
+				CE87848B2BBC870F0072A8E7 /* CheckoutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -326,10 +332,12 @@
 				CE8784432BBC80B40072A8E7 /* ContentView.swift in Sources */,
 				CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */,
 				CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */,
+				CE87848A2BBC86F50072A8E7 /* CartView.swift in Sources */,
 				CE87847A2BBC83090072A8E7 /* ItemCardDetail.swift in Sources */,
 				CE8784862BBC86430072A8E7 /* SignUpMsg.swift in Sources */,
 				CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */,
 				CE87846B2BBC81230072A8E7 /* CartManger.swift in Sources */,
+				CE87848C2BBC870F0072A8E7 /* CheckoutView.swift in Sources */,
 				CE8784802BBC84B60072A8E7 /* LoginView.swift in Sources */,
 				CE8784702BBC81920072A8E7 /* ModelProduct.swift in Sources */,
 				CE8784822BBC84C40072A8E7 /* SignUpView.swift in Sources */,
