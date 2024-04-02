@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */; };
+		CE8784432BBC80B40072A8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784422BBC80B40072A8E7 /* ContentView.swift */; };
+		CE8784452BBC80B50072A8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784442BBC80B50072A8E7 /* Assets.xcassets */; };
+		CE8784482BBC80B50072A8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */; };
+		CE8784522BBC80B60072A8E7 /* TrendyClothsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784512BBC80B60072A8E7 /* TrendyClothsTests.swift */; };
+		CE87845C2BBC80B60072A8E7 /* TrendyClothsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87845B2BBC80B60072A8E7 /* TrendyClothsUITests.swift */; };
+		CE87845E2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87845D2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift */; };
+		CE87846B2BBC81230072A8E7 /* CartManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87846A2BBC81230072A8E7 /* CartManger.swift */; };
+		CE8784702BBC81920072A8E7 /* ModelProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87846F2BBC81920072A8E7 /* ModelProduct.swift */; };
+		CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784712BBC827D0072A8E7 /* WalkingView.swift */; };
+		CE8784742BBC829C0072A8E7 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784732BBC829B0072A8E7 /* HomeUIView.swift */; };
+		CE8784762BBC82C80072A8E7 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784752BBC82C80072A8E7 /* CartButton.swift */; };
+		CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784772BBC82E80072A8E7 /* ItemCard.swift */; };
+		CE87847A2BBC83090072A8E7 /* ItemCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784792BBC83090072A8E7 /* ItemCardDetail.swift */; };
+		CE87847C2BBC834F0072A8E7 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87847B2BBC834F0072A8E7 /* Search.swift */; };
+		CE87847E2BBC83710072A8E7 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87847D2BBC83710072A8E7 /* ItemRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE87844E2BBC80B60072A8E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8784352BBC80B30072A8E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE87843C2BBC80B40072A8E7;
+			remoteInfo = TrendyCloths;
+		};
+		CE8784582BBC80B60072A8E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE8784352BBC80B30072A8E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE87843C2BBC80B40072A8E7;
+			remoteInfo = TrendyCloths;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE87843D2BBC80B40072A8E7 /* TrendyCloths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendyCloths.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsApp.swift; sourceTree = "<group>"; };
+		CE8784422BBC80B40072A8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE8784442BBC80B50072A8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE87844D2BBC80B60072A8E7 /* TrendyClothsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendyClothsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8784512BBC80B60072A8E7 /* TrendyClothsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsTests.swift; sourceTree = "<group>"; };
+		CE8784572BBC80B60072A8E7 /* TrendyClothsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendyClothsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE87845B2BBC80B60072A8E7 /* TrendyClothsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsUITests.swift; sourceTree = "<group>"; };
+		CE87845D2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE87846A2BBC81230072A8E7 /* CartManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManger.swift; sourceTree = "<group>"; };
+		CE87846F2BBC81920072A8E7 /* ModelProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProduct.swift; sourceTree = "<group>"; };
+		CE8784712BBC827D0072A8E7 /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalkingView.swift; path = ../../../../Documents/WalkingView.swift; sourceTree = "<group>"; };
+		CE8784732BBC829B0072A8E7 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		CE8784752BBC82C80072A8E7 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		CE8784772BBC82E80072A8E7 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
+		CE8784792BBC83090072A8E7 /* ItemCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardDetail.swift; sourceTree = "<group>"; };
+		CE87847B2BBC834F0072A8E7 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		CE87847D2BBC83710072A8E7 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE87843A2BBC80B40072A8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE87844A2BBC80B60072A8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8784542BBC80B60072A8E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8784342BBC80B30072A8E7 = {
+			isa = PBXGroup;
+			children = (
+				CE87843F2BBC80B40072A8E7 /* TrendyCloths */,
+				CE8784502BBC80B60072A8E7 /* TrendyClothsTests */,
+				CE87845A2BBC80B60072A8E7 /* TrendyClothsUITests */,
+				CE87843E2BBC80B40072A8E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE87843E2BBC80B40072A8E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE87843D2BBC80B40072A8E7 /* TrendyCloths.app */,
+				CE87844D2BBC80B60072A8E7 /* TrendyClothsTests.xctest */,
+				CE8784572BBC80B60072A8E7 /* TrendyClothsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE87843F2BBC80B40072A8E7 /* TrendyCloths */ = {
+			isa = PBXGroup;
+			children = (
+				CE87846E2BBC817F0072A8E7 /* Models */,
+				CE87846D2BBC81750072A8E7 /* ViewModel */,
+				CE87846C2BBC816D0072A8E7 /* Views */,
+				CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */,
+				CE8784442BBC80B50072A8E7 /* Assets.xcassets */,
+				CE8784462BBC80B50072A8E7 /* Preview Content */,
+				CE87846A2BBC81230072A8E7 /* CartManger.swift */,
+			);
+			path = TrendyCloths;
+			sourceTree = "<group>";
+		};
+		CE8784462BBC80B50072A8E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE8784502BBC80B60072A8E7 /* TrendyClothsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE8784512BBC80B60072A8E7 /* TrendyClothsTests.swift */,
+			);
+			path = TrendyClothsTests;
+			sourceTree = "<group>";
+		};
+		CE87845A2BBC80B60072A8E7 /* TrendyClothsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE87845B2BBC80B60072A8E7 /* TrendyClothsUITests.swift */,
+				CE87845D2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift */,
+			);
+			path = TrendyClothsUITests;
+			sourceTree = "<group>";
+		};
+		CE87846C2BBC816D0072A8E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE8784422BBC80B40072A8E7 /* ContentView.swift */,
+				CE8784712BBC827D0072A8E7 /* WalkingView.swift */,
+				CE8784732BBC829B0072A8E7 /* HomeUIView.swift */,
+				CE8784752BBC82C80072A8E7 /* CartButton.swift */,
+				CE8784772BBC82E80072A8E7 /* ItemCard.swift */,
+				CE8784792BBC83090072A8E7 /* ItemCardDetail.swift */,
+				CE87847B2BBC834F0072A8E7 /* Search.swift */,
+				CE87847D2BBC83710072A8E7 /* ItemRow.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE87846D2BBC81750072A8E7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE87846E2BBC817F0072A8E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE87846F2BBC81920072A8E7 /* ModelProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE87843C2BBC80B40072A8E7 /* TrendyCloths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8784612BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyCloths" */;
+			buildPhases = (
+				CE8784392BBC80B40072A8E7 /* Sources */,
+				CE87843A2BBC80B40072A8E7 /* Frameworks */,
+				CE87843B2BBC80B40072A8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendyCloths;
+			productName = TrendyCloths;
+			productReference = CE87843D2BBC80B40072A8E7 /* TrendyCloths.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE87844C2BBC80B60072A8E7 /* TrendyClothsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8784642BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyClothsTests" */;
+			buildPhases = (
+				CE8784492BBC80B60072A8E7 /* Sources */,
+				CE87844A2BBC80B60072A8E7 /* Frameworks */,
+				CE87844B2BBC80B60072A8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE87844F2BBC80B60072A8E7 /* PBXTargetDependency */,
+			);
+			name = TrendyClothsTests;
+			productName = TrendyClothsTests;
+			productReference = CE87844D2BBC80B60072A8E7 /* TrendyClothsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE8784562BBC80B60072A8E7 /* TrendyClothsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE8784672BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyClothsUITests" */;
+			buildPhases = (
+				CE8784532BBC80B60072A8E7 /* Sources */,
+				CE8784542BBC80B60072A8E7 /* Frameworks */,
+				CE8784552BBC80B60072A8E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8784592BBC80B60072A8E7 /* PBXTargetDependency */,
+			);
+			name = TrendyClothsUITests;
+			productName = TrendyClothsUITests;
+			productReference = CE8784572BBC80B60072A8E7 /* TrendyClothsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8784352BBC80B30072A8E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CE87843C2BBC80B40072A8E7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CE87844C2BBC80B60072A8E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CE87843C2BBC80B40072A8E7;
+					};
+					CE8784562BBC80B60072A8E7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CE87843C2BBC80B40072A8E7;
+					};
+				};
+			};
+			buildConfigurationList = CE8784382BBC80B30072A8E7 /* Build configuration list for PBXProject "TrendyCloths" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8784342BBC80B30072A8E7;
+			productRefGroup = CE87843E2BBC80B40072A8E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE87843C2BBC80B40072A8E7 /* TrendyCloths */,
+				CE87844C2BBC80B60072A8E7 /* TrendyClothsTests */,
+				CE8784562BBC80B60072A8E7 /* TrendyClothsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE87843B2BBC80B40072A8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8784482BBC80B50072A8E7 /* Preview Assets.xcassets in Resources */,
+				CE8784452BBC80B50072A8E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE87844B2BBC80B60072A8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8784552BBC80B60072A8E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE8784392BBC80B40072A8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8784432BBC80B40072A8E7 /* ContentView.swift in Sources */,
+				CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */,
+				CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */,
+				CE87847A2BBC83090072A8E7 /* ItemCardDetail.swift in Sources */,
+				CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */,
+				CE87846B2BBC81230072A8E7 /* CartManger.swift in Sources */,
+				CE8784702BBC81920072A8E7 /* ModelProduct.swift in Sources */,
+				CE87847C2BBC834F0072A8E7 /* Search.swift in Sources */,
+				CE87847E2BBC83710072A8E7 /* ItemRow.swift in Sources */,
+				CE8784762BBC82C80072A8E7 /* CartButton.swift in Sources */,
+				CE8784742BBC829C0072A8E7 /* HomeUIView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8784492BBC80B60072A8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8784522BBC80B60072A8E7 /* TrendyClothsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8784532BBC80B60072A8E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE87845C2BBC80B60072A8E7 /* TrendyClothsUITests.swift in Sources */,
+				CE87845E2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE87844F2BBC80B60072A8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE87843C2BBC80B40072A8E7 /* TrendyCloths */;
+			targetProxy = CE87844E2BBC80B60072A8E7 /* PBXContainerItemProxy */;
+		};
+		CE8784592BBC80B60072A8E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE87843C2BBC80B40072A8E7 /* TrendyCloths */;
+			targetProxy = CE8784582BBC80B60072A8E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE87845F2BBC80B60072A8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE8784602BBC80B60072A8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8784622BBC80B60072A8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrendyCloths/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyCloths;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8784632BBC80B60072A8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrendyCloths/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyCloths;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE8784652BBC80B60072A8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyClothsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendyCloths.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrendyCloths";
+			};
+			name = Debug;
+		};
+		CE8784662BBC80B60072A8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyClothsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendyCloths.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrendyCloths";
+			};
+			name = Release;
+		};
+		CE8784682BBC80B60072A8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyClothsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendyCloths;
+			};
+			name = Debug;
+		};
+		CE8784692BBC80B60072A8E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TrendyClothsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendyCloths;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8784382BBC80B30072A8E7 /* Build configuration list for PBXProject "TrendyCloths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE87845F2BBC80B60072A8E7 /* Debug */,
+				CE8784602BBC80B60072A8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8784612BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyCloths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8784622BBC80B60072A8E7 /* Debug */,
+				CE8784632BBC80B60072A8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8784642BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyClothsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8784652BBC80B60072A8E7 /* Debug */,
+				CE8784662BBC80B60072A8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE8784672BBC80B60072A8E7 /* Build configuration list for PBXNativeTarget "TrendyClothsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8784682BBC80B60072A8E7 /* Debug */,
+				CE8784692BBC80B60072A8E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8784352BBC80B30072A8E7 /* Project object */;
+}
