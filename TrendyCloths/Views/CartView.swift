@@ -35,7 +35,7 @@ struct CartView: View {
                                     .bold()
                             }.padding(5)
                             
-                            NavigationLink(destination: SignUpView())
+                            NavigationLink(destination: CheckoutView())
                             {
                                 Text("Ready to Pay")
                                 

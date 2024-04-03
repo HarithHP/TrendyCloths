@@ -46,11 +46,12 @@ struct WelcomeView: View {
                         
                     }.font(.custom("Mongolian Baiti", size: 27))
                         .foregroundColor(.white)
-                        .frame(width: 258, height: 50)
+                        .frame(width: 258, height: 60)
                         .background(Color(red: 187/255, green: 138/255, blue: 82/255))
                         .cornerRadius(30)
                         .padding(15)
-                        .offset(x:60,y: 240)
+                        .offset(x:50,y: 240)
+                        .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                 }
                 
             }.padding(.horizontal, 15)
