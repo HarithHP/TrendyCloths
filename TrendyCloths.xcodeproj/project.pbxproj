@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */; };
-		CE8784432BBC80B40072A8E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784422BBC80B40072A8E7 /* ContentView.swift */; };
 		CE8784452BBC80B50072A8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784442BBC80B50072A8E7 /* Assets.xcassets */; };
 		CE8784482BBC80B50072A8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */; };
 		CE8784522BBC80B60072A8E7 /* TrendyClothsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784512BBC80B60072A8E7 /* TrendyClothsTests.swift */; };
@@ -53,7 +52,6 @@
 /* Begin PBXFileReference section */
 		CE87843D2BBC80B40072A8E7 /* TrendyCloths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendyCloths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsApp.swift; sourceTree = "<group>"; };
-		CE8784422BBC80B40072A8E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8784442BBC80B50072A8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE87844D2BBC80B60072A8E7 /* TrendyClothsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendyClothsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +165,6 @@
 		CE87846C2BBC816D0072A8E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE8784422BBC80B40072A8E7 /* ContentView.swift */,
 				CE8784712BBC827D0072A8E7 /* WalkingView.swift */,
 				CE8784732BBC829B0072A8E7 /* HomeUIView.swift */,
 				CE8784752BBC82C80072A8E7 /* CartButton.swift */,
@@ -332,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8784432BBC80B40072A8E7 /* ContentView.swift in Sources */,
 				CECF54492BBDB85E00ED9360 /* SearchView.swift in Sources */,
 				CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */,
 				CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */,

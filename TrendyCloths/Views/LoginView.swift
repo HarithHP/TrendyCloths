@@ -20,6 +20,18 @@ struct LoginView: View {
                 Rectangle().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/).foregroundColor(.brown)
                     .frame(width: 393, height:300).offset(y:-230)
                 
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(Color.white)
+                    .frame(width: 340, height: 55)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    .offset(y:135)
+                
+                
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(Color.white)
+                    .frame(width: 340, height: 55)
+                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                    .offset(y:30)
                 
                 VStack{
                     
@@ -49,47 +61,34 @@ struct LoginView: View {
                         Text("Email Address")
                             .font(Font.custom("Skranji", size: 14)).offset(x:-120,y:-10)
                         
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(Color.white)
-                            .frame(width: 340, height: 55)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(Color.gray, lineWidth: 1)
-                            )
-                        
+                        HStack{
+                            
+                            Image(systemName: "mail")
+                                .resizable()
+                                .frame(width: 20, height: 18)
+                                .foregroundColor(Color.gray)
+                                .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                            
+                            
+                            TextField("Email",text: $email)
+                                .font(.custom("Inter", size: 18))
+                                .foregroundColor(Color.gray).offset(x:20)
+                            
+                            
+                        }.offset(x:-110,y:310)
                         
                     }.offset(y:355)
                     
-                    HStack{
-                        
-                        Image(systemName: "mail")
-                            .resizable()
-                            .frame(width: 20, height: 18)
-                            .foregroundColor(Color.gray)
-                            .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
-                        
-                        
-                        Text("Email")
-                            .font(.custom("Inter", size: 18))
-                            .foregroundColor(Color.gray).offset(x:20)
-                        
-                        
-                    }.offset(x:-110,y:310)
+                   
                     
                     Spacer()
                     
                     VStack{
                         
                         Text("Password")
-                            .font(Font.custom("Skranji", size: 14)).offset(x:-130,y:-10)
+                            .font(Font.custom("Skranji", size: 14)).offset(x:-130,y:-65)
                         
-                        RoundedRectangle(cornerRadius: 20)
-                            .fill(Color.white)
-                            .frame(width: 340, height: 55)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(Color.gray, lineWidth: 1)
-                            )
+                      
                     }.offset(y:-40)
                     
                     HStack{
@@ -101,7 +100,7 @@ struct LoginView: View {
                             .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
                         
                         
-                        Text("Password")
+                        TextField("Password",text: $password)
                             .font(.custom("Inter", size: 18))
                             .foregroundColor(Color.gray).offset(x:20)
                         
