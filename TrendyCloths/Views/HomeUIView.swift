@@ -141,26 +141,32 @@ struct CategoryView: View {
 struct BottomNavBarView: View {
     var body: some View {
         HStack {
-            BottomNavBarItem(image: Image("home (2)"), action: {})
-            BottomNavBarItem(image: Image("heart"), action: {})
-            BottomNavBarItem(image: Image("shop"), action: {})
-            BottomNavBarItem(image: Image("User"), action: {})
+            BottomNavBarItem(systemName: "house.fill", action: {})
+            BottomNavBarItem(systemName: "heart.fill", action: {})
+            BottomNavBarItem(systemName: "cart.fill", action: {})
+            BottomNavBarItem(systemName: "person.fill", action: {})
         }
         .padding()
         .background(Color.white)
         .clipShape(Capsule())
         .padding(.horizontal)
-        .shadow(color: Color.blue.opacity(0.15), radius: 8, x: 2, y: 6)
+        .shadow(color: Color.brown.opacity(0.15), radius: 8, x: 2, y: 6)
     }
 }
 
 struct BottomNavBarItem: View {
-    let image: Image
+    let systemName: String
     let action: () -> Void
+    
     var body: some View {
         Button(action: action) {
-            image
+            Image(systemName: systemName)
+                .resizable()
+                .foregroundColor(.brown)
+                .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: .infinity)
+                .frame(width: 80, height: 25)
+                
         }
     }
 }
