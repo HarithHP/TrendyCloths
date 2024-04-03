@@ -16,6 +16,7 @@ struct SignUpMsg: View {
                     .scaledToFill()
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     .frame(width:150 ,height:852)
+                    .blur(radius: /*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
                 
                 RoundedRectangle(cornerRadius: 100)
                     .fill(
@@ -28,21 +29,21 @@ struct SignUpMsg: View {
                 
                 VStack
                 {
-                    Image(systemName: "nosign.app.fill")
+                    Image(systemName: "bell.fill")
                         .resizable()
-                        .frame(width: 30, height: 25)
+                        .frame(width: 100, height: 100)
                         .cornerRadius(12)
-                        .offset(y:205)
+                        .offset(y:150)
                         .foregroundColor(.red)
                     
                     Text("You need to sign in before start the shopping")
                         .font(Font.custom("Skranji", size: 17))
                         .foregroundColor(Color(red: 136/255, green: 136/255, blue: 136/255))
                         .frame(width: 288)
-                        .offset(y: 225)
+                        .offset(y: 185)
                     
                     
-                    NavigationLink(destination: SignUpView())
+                    NavigationLink(destination: LoginView())
                     {
                         Text("Sign In")
     
@@ -51,7 +52,7 @@ struct SignUpMsg: View {
                         .frame(width: 288, height: 60)
                         .background(Color.brown)
                         .padding(15)
-                        .offset(y: 250)
+                        .offset(y: 230)
                 }
                 
             }.padding(.horizontal, 15)

@@ -9,14 +9,14 @@ import Foundation
 
 struct Product : Identifiable {
     var id = UUID()
-      var name: String?
-     var category: String?
+      var name: String
+     var category: String
      var link1: String?
      var link2: String?
      var link3: String?
     var description: String?
-     var color: String?
-    var itemSize: String?
+     var color: String
+    var itemSize: String
     var price: Int
 }
 
