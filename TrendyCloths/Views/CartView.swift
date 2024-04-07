@@ -55,8 +55,6 @@ struct CartView: View {
                     }
                     else {
                         
-                        
-                        
                         Text("Your cart is empty....")
                             .font(.custom("AmericanTypewriter", size: 20))
                             .foregroundColor(Color.black).bold()

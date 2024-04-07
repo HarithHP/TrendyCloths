@@ -36,6 +36,7 @@ struct SignUpView: View {
 
             }
             
+            
             VStack{
                 
                 VStack{
@@ -85,6 +86,7 @@ struct SignUpView: View {
                                 .stroke(Color.gray, lineWidth: 1)
                         )
                 }.offset(y:-10)
+                
                 
                 HStack{
                     

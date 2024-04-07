@@ -15,6 +15,7 @@ struct LoginView: View {
     var body: some View {
         NavigationView{
             
+            
             ZStack {
                 
                 Rectangle().edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/).foregroundColor(.brown)
@@ -52,6 +53,7 @@ struct LoginView: View {
                         .offset(x:-125,y:-245)
                     
                 }
+                
                 
                 
                 VStack{

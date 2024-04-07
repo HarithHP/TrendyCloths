@@ -18,11 +18,13 @@ struct WalkingView: View {
                 Color(red: 187/255, green: 138/255, blue: 82/255)
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                 
+                
                 Image("handsome-man-black-suit-with-white-shirt-posing-attractive-guy-with-fashion-hairstyle-confident-man-with-short-beard-adult-boy-with-brown-hair-full-portrait_2_1-removebg-preview")
                     .resizable()
                     .scaledToFill()
                     .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                     .offset(x:25, y:150)
+                
                 
                 
                 RoundedRectangle(cornerRadius: 30)
@@ -59,6 +61,7 @@ struct WalkingView: View {
                     .shadow(radius: 8.9)
                     .offset(x:105, y: 290)
                 }
+                
                 
             }
         }

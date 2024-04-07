@@ -2,7 +2,6 @@
 //  ProductViewModel.swift
 //  TrendyCloths
 //
-//  Created by Hansani Ruwan Kumari on 2024-04-07.
 //
 
 import Foundation
@@ -38,6 +37,7 @@ class ProductViewModel: ObservableObject {
             }
         }.resume()
     }
+    
     
     func fetchItemByID(id: Int) {
             guard let url = URL(string: "http://harith25-001-site1.ltempurl.com/api/Item/GetItemByID?id=\(id)") else {
