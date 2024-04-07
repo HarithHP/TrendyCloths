@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Product : Identifiable {
+struct Product : Identifiable, Decodable {
     var id = UUID()
       var name: String
      var category: String
@@ -21,9 +21,26 @@ struct Product : Identifiable {
 }
 
 let productList = [
-    Product(name: "Mock Item 2", category: "Pants", link1: "008c3c4ede768d8d49cfa4b8814dd1b5", link2: "", link3: "", description: "One of the primary functions of clothing is to protect the body from environmental elements such as weather, temperature extremes, and physical harm. Clothing acts as a barrier between the body and potentially harmful agents.", color: "Mock Color 2", itemSize: "Mock Size 2", price: 2800),
+    Product(  name: "Embroidery TShirt",
+              category: "TShirt",
+              link1: "Link1",
+              link2: "Link1",
+              link3: "Link1",
+              description: "Men Embroidery Brand High Quality Knitted Ice Cool Polo Shirt Summer Casual Polo Collar Rib Breathable Top Short Sleeve T-shirt.",
+              color: "All",
+              itemSize: "All",
+              price: 4500 ),
     
-    Product(name: "Mock Item 2", category: "Dress", link1: "008c3c4ede768d8d49cfa4b8814dd1b5", link2: "", link3: "", description: "Mock Description 2", color: "Mock Color 2", itemSize: "Mock Size 2", price: 200),
+    Product(
+            name: "Trendy TShirt",
+            category: "TShirt",
+            link1: "Link1",
+            link2: "Link1",
+            link3: "Link1",
+            description: "2024 Mens Cotton Linen Pants Male Autumn New Breathable Solid Color Linen Trousers Fitness Streetwear S-3XL",
+            color: "All",
+            itemSize: "All",
+            price: 5500),
     
     Product(name: "Mock Item 2", category: "Tops", link1: "008c3c4ede768d8d49cfa4b8814dd1b5", link2: "", link3: "", description: "Mock Description 2", color: "Mock Color 2", itemSize: "Mock Size 2", price: 200),
     

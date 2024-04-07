@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61DE652E2BC2E7E500162DCF /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE652D2BC2E7E500162DCF /* WalkingView.swift */; };
+		61DE65362BC30A9500162DCF /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DE65352BC30A9500162DCF /* ProductViewModel.swift */; };
 		CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */; };
 		CE8784452BBC80B50072A8E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784442BBC80B50072A8E7 /* Assets.xcassets */; };
 		CE8784482BBC80B50072A8E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8784472BBC80B50072A8E7 /* Preview Assets.xcassets */; };
@@ -15,7 +17,6 @@
 		CE87845E2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87845D2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift */; };
 		CE87846B2BBC81230072A8E7 /* CartManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87846A2BBC81230072A8E7 /* CartManger.swift */; };
 		CE8784702BBC81920072A8E7 /* ModelProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE87846F2BBC81920072A8E7 /* ModelProduct.swift */; };
-		CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784712BBC827D0072A8E7 /* WalkingView.swift */; };
 		CE8784742BBC829C0072A8E7 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784732BBC829B0072A8E7 /* HomeUIView.swift */; };
 		CE8784762BBC82C80072A8E7 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784752BBC82C80072A8E7 /* CartButton.swift */; };
 		CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8784772BBC82E80072A8E7 /* ItemCard.swift */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61DE652D2BC2E7E500162DCF /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
+		61DE65352BC30A9500162DCF /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		CE87843D2BBC80B40072A8E7 /* TrendyCloths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendyCloths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8784402BBC80B40072A8E7 /* TrendyClothsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsApp.swift; sourceTree = "<group>"; };
 		CE8784442BBC80B50072A8E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +64,6 @@
 		CE87845D2BBC80B60072A8E7 /* TrendyClothsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendyClothsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CE87846A2BBC81230072A8E7 /* CartManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManger.swift; sourceTree = "<group>"; };
 		CE87846F2BBC81920072A8E7 /* ModelProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProduct.swift; sourceTree = "<group>"; };
-		CE8784712BBC827D0072A8E7 /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WalkingView.swift; path = ../../../../Documents/WalkingView.swift; sourceTree = "<group>"; };
 		CE8784732BBC829B0072A8E7 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
 		CE8784752BBC82C80072A8E7 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		CE8784772BBC82E80072A8E7 /* ItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCard.swift; sourceTree = "<group>"; };
@@ -165,7 +167,6 @@
 		CE87846C2BBC816D0072A8E7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE8784712BBC827D0072A8E7 /* WalkingView.swift */,
 				CE8784732BBC829B0072A8E7 /* HomeUIView.swift */,
 				CE8784752BBC82C80072A8E7 /* CartButton.swift */,
 				CE8784772BBC82E80072A8E7 /* ItemCard.swift */,
@@ -180,6 +181,7 @@
 				CE8784892BBC86F50072A8E7 /* CartView.swift */,
 				CE87848B2BBC870F0072A8E7 /* CheckoutView.swift */,
 				CECF54482BBDB85E00ED9360 /* SearchView.swift */,
+				61DE652D2BC2E7E500162DCF /* WalkingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +189,7 @@
 		CE87846D2BBC81750072A8E7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				61DE65352BC30A9500162DCF /* ProductViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -330,11 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CECF54492BBDB85E00ED9360 /* SearchView.swift in Sources */,
-				CE8784722BBC827D0072A8E7 /* WalkingView.swift in Sources */,
 				CE8784782BBC82E80072A8E7 /* ItemCard.swift in Sources */,
 				CE87848A2BBC86F50072A8E7 /* CartView.swift in Sources */,
 				CE87847A2BBC83090072A8E7 /* ItemCardDetail.swift in Sources */,
 				CE8784862BBC86430072A8E7 /* SignUpMsg.swift in Sources */,
+				61DE65362BC30A9500162DCF /* ProductViewModel.swift in Sources */,
 				CE8784412BBC80B40072A8E7 /* TrendyClothsApp.swift in Sources */,
 				CE87846B2BBC81230072A8E7 /* CartManger.swift in Sources */,
 				CE87848C2BBC870F0072A8E7 /* CheckoutView.swift in Sources */,
@@ -342,6 +345,7 @@
 				CE8784702BBC81920072A8E7 /* ModelProduct.swift in Sources */,
 				CE8784822BBC84C40072A8E7 /* SignUpView.swift in Sources */,
 				CE87847C2BBC834F0072A8E7 /* Search.swift in Sources */,
+				61DE652E2BC2E7E500162DCF /* WalkingView.swift in Sources */,
 				CE87847E2BBC83710072A8E7 /* ItemRow.swift in Sources */,
 				CE8784882BBC86560072A8E7 /* MessageView.swift in Sources */,
 				CE8784762BBC82C80072A8E7 /* CartButton.swift in Sources */,

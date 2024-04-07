@@ -27,7 +27,7 @@ struct ItemCardDetail: View {
             .edgesIgnoringSafeArea(.top)
             
             HStack {
-                Text("$1299")
+                Text("Rs.1299")
                     .font(.title)
                     .foregroundColor(.white)
                 Spacer()

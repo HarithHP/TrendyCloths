@@ -40,7 +40,7 @@ struct WelcomeView: View {
                         .offset(x:-25,y: 80)
                     
                     
-                    NavigationLink(destination: WalkingView())
+                    NavigationLink(destination: CheckoutView())
                     {
                         Text("Continue")
                         

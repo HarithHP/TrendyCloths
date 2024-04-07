@@ -11,7 +11,7 @@ import SwiftUI
 struct TrendyClothsApp: App {
     var body: some Scene {
         WindowGroup {
-            WalkingView()
+            WelcomeView()
         }
     }
 }

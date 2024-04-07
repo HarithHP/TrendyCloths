@@ -150,7 +150,7 @@ struct BottomNavBarView: View {
         .background(Color.white)
         .clipShape(Capsule())
         .padding(.horizontal)
-        .shadow(color: Color.brown.opacity(0.15), radius: 8, x: 2, y: 6)
+        .shadow(color: Color.brown.opacity(0.15), radius: 10, x: 2, y: 6)
     }
 }
 
@@ -166,6 +166,7 @@ struct BottomNavBarItem: View {
                 .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: .infinity)
                 .frame(width: 80, height: 25)
+                
                 
         }
     }

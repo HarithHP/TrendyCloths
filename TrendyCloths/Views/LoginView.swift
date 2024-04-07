@@ -128,7 +128,7 @@ struct LoginView: View {
                     VStack{
                         
                         
-                        NavigationLink(destination: MessageView())
+                        NavigationLink(destination: CheckoutView())
                         {
                             Text("login")
                         }
@@ -149,7 +149,7 @@ struct LoginView: View {
                     
                 }
             }
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 
