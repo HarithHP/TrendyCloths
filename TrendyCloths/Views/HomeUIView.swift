@@ -58,10 +58,10 @@ struct HomeUIView: View {
                 }
                 
                 VStack{
-                    Image("WhatsApp Image 2024-03-27 at 20.14.07 (1)")
+                    Image("ca356473-51b1-4c8a-b471-2ea108caf1df_1024")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 100 ,height:170)
+                        .frame(width: 150 ,height:180)
                         .offset(y:-110)
                     
                     
