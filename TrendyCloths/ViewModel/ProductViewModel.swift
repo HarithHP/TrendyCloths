@@ -40,7 +40,7 @@ class ProductViewModel: ObservableObject {
     }
     
     func fetchItemByID(id: Int) {
-            guard let url = URL(string: "http://chelani2000-001-site1.itempurl.com/api/Item/GetItemByID?id=\(id)") else {
+            guard let url = URL(string: "http://harith25-001-site1.ltempurl.com/api/Item/GetItemByID?id=\(id)") else {
                 fatalError("Invalid URL")
             }
 
